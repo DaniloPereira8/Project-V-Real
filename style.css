@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: linear-gradient( 90deg, #1e1d1d 0%, #183CB7 100%);
+    height: 55px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: 470px;
+}
+
+li{
+font-size: 13px;
+color: #fff;
+margin-top: 23px;
+font-weight: 200;
+cursor: pointer;
+}
+
+li:hover{
+  text-decoration: underline;
+  color: #E12179;
+  box-shadow: 30px 34px 80px #E12179;
+}
+
+li:active{
+    color: #000;
+    text-decoration: none;
+}
+
+h6{
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    margin: 16px;
+    position: absolute;
+    font-weight: 400;
+}
+
+
+#pesquisa{
+    display: inline-block;
+    height: 23px;
+    margin: 20px 0px 0px 230px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+    background: #2d2d2d;
+    text-align: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #E12179;
+}
+
+#pesquisa:focus{
+    outline: none;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    background: none;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    left: 260px;
+    top: 15px
+}
+
+
+button i:hover{
+    color: #E12179 ;
+}
+
+button i:active{
+    opacity: 0.4;
+}
+
+section{
+    background: linear-gradient( 180deg, #40A4FF 0%, #E12179 100%);
+    height: 550px;
+    width: 20%;
+    
+}
+
+#box-one{
+    background-color: #311996;
+}
+
+.background-color{
+    width: 920px;
+    height: 550px;
+    position: absolute;
+   
+}
+
+.image-one{
+    width: 510px;
+    margin-left: 670px;
+    position: absolute;
+    z-index: 99;
+   
+}
+
+.image-word{
+    display: flex;
+}
+
+.text{
+    z-index: 99;
+    position: absolute;
+    padding: 10px;
+    margin: 150px 0 0 15px;
+}
+
+p{
+    width: 50%;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    color: #fff;
+}
+
+h1{
+ font-weight: 600;
+ font-size: 55px;
+ line-height: 90px;
+ color: #fff;
+ 
+}
